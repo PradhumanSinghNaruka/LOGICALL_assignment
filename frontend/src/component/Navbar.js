@@ -1,7 +1,6 @@
 import React from "react";
 import { FiAlignJustify } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import logo from "../image/ChatGPT Image Apr 3, 2025, 03_35_14 PM.png";
 import Login from "../component/Login";
 
 function Navbar() {
@@ -11,12 +10,12 @@ function Navbar() {
         {/* Left Section - Logo + Icon */}
         <div className="flex items-center space-x-4">
           <FiAlignJustify className="text-white h-8 w-8 hover:text-gray-400 cursor-pointer duration-300" />
-          <img src={logo} alt="Logo" className="h-12 w-12 rounded-full" />
-          <h1 className="text-white text-2xl font-bold">MediaAMP</h1>
+          // <img src={logo} alt="Logo" className="h-12 w-12 rounded-full" />
+          <h1 className="text-white text-2xl font-bold">LOGICALL</h1>
         </div>
 
         {/* Middle Section - Nav Links */}
-        <div className="hidden md:flex items-center space-x-10">
+        <div className="hidden md:flex items-center space-x-14">
           <Link
             to="/"
             className="text-white text-lg font-semibold hover:text-gray-400 duration-300"
